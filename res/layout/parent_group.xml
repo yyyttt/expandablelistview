@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/parent_group_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#123456"
+        android:padding="15dp"
+        android:text="父级"/>
+
+</RelativeLayout>
